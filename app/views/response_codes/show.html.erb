@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Code:</b>
+  <%= @response_code.code %>
+</p>
+
+<p>
+  <b>Invitation:</b>
+  <%= @response_code.invitation %>
+</p>
+
+
+<%= link_to 'Edit', edit_response_code_path(@response_code) %> |
+<%= link_to 'Back', response_codes_path %>
